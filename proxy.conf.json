@@ -1,6 +1,6 @@
 {
     "/api/*":{
-        "target":"https://sheltered-caverns-32656.herokuapp.com",
+        "target":"",
         "secure":false,
         "logLevel":"debug"
     }
