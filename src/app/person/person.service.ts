@@ -10,7 +10,7 @@ import { Person } from './person';
   providedIn: 'root',
 })
 export class PersonService {
-  private apiURL = 'https://sheltered-caverns-32656.herokuapp.com/api/person';
+  private apiURL = 'https://sheltered-caverns-32656.herokuapp.com/api/person/';
 
   httpOptions = {
     headers: new HttpHeaders({
