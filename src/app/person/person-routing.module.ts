@@ -5,6 +5,7 @@ import { EditComponent } from './edit/edit.component';
 import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
+  { path: '', component: IndexComponent },
   { path: 'person', redirectTo: 'person/index', pathMatch: 'full' },
   { path: 'person/index', component: IndexComponent },
   { path: 'person/create', component: CreateComponent },
